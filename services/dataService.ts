@@ -71,7 +71,7 @@ export const fetchMarketData = async (pair: string = 'B-BTC_USDT', resolution: s
       low: c.low,
       close: c.close,
       volume: c.volume
-    })).sort((a, b) => new Date(a.time).getTime() - new Date(b.time).getTime());
+    })).sort((a: Candle, b: Candle) => new Date(a.time).getTime() - new Date(b.time).getTime());
 
     return candles;
 
