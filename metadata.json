@@ -1,0 +1,5 @@
+{
+  "name": "TradeLogic AI",
+  "description": "An AI-powered trading strategy dashboard visualizing 9 EMA bias, supply/demand zones, and candlestick patterns, enhanced with Gemini analysis.",
+  "requestFramePermissions": []
+}
